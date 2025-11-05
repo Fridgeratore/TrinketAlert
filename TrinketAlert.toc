@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: Trinket Alert
+## Notes: Warns raid when trinket is on cooldown and a debuff is applied
+## Author: Fridge
+## Version: 1.0
+
+TrinketAlert.lua
