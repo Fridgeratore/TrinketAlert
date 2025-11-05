@@ -3,12 +3,11 @@ local TRINKET_SLOT = 13 -- upper trinket
 local lastAlert = 0
 local RAID_ENABLED = true
 local YELL_ENABLED = true
-local ALERT_THROTTLE = 3 -- seconds between alerts
+local ALERT_THROTTLE = 5 -- seconds between alerts
 local POLL_INTERVAL = 0.5
 
 -- Map icon-token or partial icon path -> friendly name
 local TARGET_DEBUFF_ICONS = {
-    ["Spell_Nature_StarFall"] = "Moonfire",
     ["Spell_Shadow_ShadowWordDominate"] = "Charming Presence",
     -- you can also put the full path keys if you like:
     -- ["Interface\\Icons\\Spell_Nature_StarFall"] = "Moonfire",
